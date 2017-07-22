@@ -1,0 +1,125 @@
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  margin: 0 20%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 100vh;
+}
+
+/* Header Styles */
+
+header {
+  margin-top: 4%;
+}
+
+#logo {
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rock Salt';
+  font-size: 1rem;
+  font-weight: 300;
+  text-shadow: 1px 1px grey;
+  margin: 0 0 2.5% 0;
+}
+
+
+/* Search bar styles */
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2.5%;
+  padding: 2.5% 0;
+  /*border-top: 1px solid black;
+  border-bottom: 1px solid black;*/
+}
+
+input {
+  width: 80%;
+  font-size: 1.15rem;
+  font-family: Helvetica;
+}
+
+input, button {
+  outline: none;
+}
+
+#searchButton {
+  border: 0;
+  background-color: lightblue;
+  text-transform: uppercase;
+  color: white;
+}
+
+#searchButton:hover {
+  background-color: lightgrey;
+}
+
+/* Music results styles */
+
+#searchResults {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5%;
+  padding-left: 3.5%;
+}
+
+.result {
+  margin-bottom: 5%;
+  width: 20%;
+  height: 150px;
+  /*border: 1px solid black;*/
+  overflow: hidden;
+}
+
+.playSong {
+  border: none;
+  box-shadow: 1px 1px white;
+}
+
+h5, h6 {
+  margin: 0;
+}
+
+h5 {
+  /*font-size: .rem;*/
+}
+
+h6 {
+  /*font-size: .75rem;*/
+}
+
+
+/* Audio player styles */
+
+.musicPlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*position: fixed;
+  bottom: 0;*/
+}
+
+audio {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: .75rem;
+  font-family: Helvetica;
+  margin-top: 0;
+  margin-left: 1.5%;
+}
