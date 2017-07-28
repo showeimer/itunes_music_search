@@ -6,8 +6,8 @@ body {
 
 .wrapper {
   margin: 0 20%;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
   height: 100vh;
 }
 
@@ -61,6 +61,7 @@ input, button {
   background-color: lightblue;
   text-transform: uppercase;
   color: white;
+  text-shadow: 1px 1px lightgrey;
 }
 
 #searchButton:hover {
@@ -82,11 +83,12 @@ input, button {
   height: 150px;
   /*border: 1px solid black;*/
   overflow: hidden;
+  position: relative;
 }
 
 .playSong {
   border: none;
-  box-shadow: 1px 1px white;
+  cursor: pointer;
 }
 
 h5, h6 {
